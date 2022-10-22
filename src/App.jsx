@@ -27,7 +27,9 @@ function App() {
       Contador: {contador}
       <div style={{
         display: 'flex',
-        gap: 5
+        gap: 5,
+        flexWrap: 'wrap',
+        padding: 10
       }}>
         <button
           onClick={reiniciar}>
